@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Internet links</title>
+    <style>
+      section{
+        font-size: 120%;
+      }
+      .style {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 20px;
+        color: #5aa000;
+        font-style: italic;
+        font-weight: 700;
+        text-align: center;
+      }
+
+    /* Element selector */
+    section {
+      color: darkblue;
+    }
+
+    /*Class selector*/
+    .brown {
+      color: brown;
+    }
+
+    /*ID selector */
+    #top {
+      color: red;
+    }
+
+    /* Element and ID selectors */
+    div, #top {
+      color:green;
+    }
+
+    /* Tag affect by Class*/
+    p.Pclass {
+      font-size: 25px;
+    }
+
+    /* Child selector*/
+    li > a {
+      font-style: italic;
+    }
+    /*
+    #sec {
+      width: 120;
+      height: 100;
+      border-color: black;
+      border: 1px;
+    }
+    
+    #menue {
+      background-color: green;
+    }
+    */
+
+    section li:nth-child(odd){
+      background-color: yellow;
+    }
+
+    section li:nth-child(2):hover {            
+      width: 150px;
+      font-size: 15px;
+      background-color: gray;
+    }
+
+    .menue:hover {
+      width: 100px;
+      background-color: blanchedalmond;
+      text-align: center;
+    }
+
+    body{
+      margin: 0px;
+      background-color: gray;
+    }
+
+    * {
+      text-transform: capitalize;
+    }
+
+    #box {
+      padding: 1%;
+      background-color: blue;
+      color: white;
+      text-align: center;
+      font-size: larger;
+      font-weight: bold;
+      border: 2%;
+      margin: 3%;
+    }
+    
+    #content {
+      background-color: #90ee90;
+      padding: 2%;
+      text-align: center;
+
+    }
+
+    #IIbox {
+      width: 1000px;
+      height: 50px;
+      background-color: aquamarine;
+      border: 5px solid pink;
+      padding: 10px;
+      margin: 40px;
+      text-align: center;
+      color: black;
+      font-size: 40px;
+      font-weight: 700;
+      box-sizing: border-box;
+    }
+
+    </style>
+  </head>
+  <body>
+
+    <h3>(#section2) section 2</h3>
+    <h1 id="top">HOME</h1>
+    <!--It's comment command in HTML-->
+    <section>
+      We can link to a file in the same directory as this HTML file like this:
+      <a href="same-directory.html" title="Same dir link" target="_blank">
+      Linking to a file in the same directory</a>
+
+      <a href="same-directory.html" title="same dir link">
+          <div class="blue">Div linking to a file in the same directory</div>
+      </a>
+    </section>
+    <div>
+      <a href="DisplayingImages.html" title="The page can display some pictures you want!">
+        The page can display some pictures you want!
+      </a>
+      <section>
+        <ul>
+          <li>
+            <a href="Poets.html" title="Iranian Poets"> شاعر های ایرانی</a>
+          </li>
+        </ul>
+      </section>
+    </div>
+      <p>
+        This is a unaffected text in "P" tag .
+      </p>
+  
+      <p class="Pclass">
+        This is a affected text in a "P" tag comming with "Class" .
+      </p>
+
+    <section id="sec">
+      <ul id="menue">
+        <li class="menue"><a href="#section1">#section1</a> </li>
+        <li class="menue"><a href="#section2">#section2</a> </li>
+        <li class="menue"><a href="#section3">#section3</a> </li>
+        <li class="menue"><a href="#section4">#section4</a> </li>
+        <li class="menue"><a href="#section5">#section5</a> </li>
+        <li class="menue"><a href="#section6">#section6</a> </li>
+      </ul>
+    </section>
+    <section id="section1">
+      <h3>(#section1) section 1</h3>
+      Synonyms and antonyms
+
+          <section class="style" id="section1">
+            class="style" <br>
+            (adjective) attractive
+            Synonyms: appealing, beauteous, beautiful, boss, charming,
+            cheerful, cher, comely, cute, dainty, darling, delicate,
+            delightful, dishy, dreamboat, elegant, eyeful, fair, fi
+            ne, foxy, good-looking, graceful, handsome, looker, lov
+            ely, neat, nice, picture, pleasant, pleasing, pulchritu
+            dinous, tasteful
+            Antonyms: disgusting, ugly
+          </section>
+
+      <h3>(#section2) section 2</h3>
+      <div id="box" style="font-size: 1.5em;">
+        style="font-size: 2em;" <br>
+        <div id="content">          
+          <section  id="section2">            
+            Box Styles
+          </section>
+        </div>
+      </div>
+
+      <div id="IIbox">
+        <div>
+          Second box
+        </div>
+      </div>
+
+
+      <h3>(#section3) section 3</h3>
+      <section id="section3">
+        (adjective) attractive
+        Synonyms: appealing, beauteous, beautiful, boss, 
+        charming, cheerful, cher, comely, cute, dainty, darling
+        , delicate, delightful, dishy, dreamboat, elegant, eyeful, 
+        fair, fine, foxy, good-looking, graceful, handsome, looker, 
+      </section>
+      Synonyms and antonyms
+      (adjective) attractive
+      Synonyms: appealing, beauteous, beautiful, boss, 
+      charming, cheerful, cher, comely, cute, dainty, darling, 
+      delicate, delightful, dishy, dreamboat, elegant, eyeful,
+      fair, fine, foxy, good-looking, graceful, handsome, looke
+      <h3>(#section4) section 4</h3>
+      <section id="section4">
+        Synonyms: a little, ample, fairly, kind of, large,
+        moderately, more or less, much, notable, pretty much, qui
+        te, rather, reasonably, sizable, some, something,
+        sort of, tolerably
+        Synonyms and antonyms
+      </section>
+      Synonyms: a little, ample, fairly, kind of, large
+      , moderately, more or less, much, notable, pretty 
+      much, quite, rather, reasonably, sizable, some, some
+      thing, sort of, tolerably
+      Synonyms and antonyms
+      <h3>(#section5) section 5</h3>
+      <section id="section5">
+        (adjective) attractive
+        Synonyms: appealing, beauteous, beautiful, boss,
+        charming, cheerful, cher, comely, cute, dainty, da
+        rling, delicate, delightful, dishy, dreamboat, elega
+        nt, eyeful, fair, fine, foxy, good-looking, graceful
+        , handsome, looker, lovely, neat, nice, picture, pleas
+      </section>
+      rling, delicate, delightful, dishy, dreamboat, elega
+      nt, eyeful, fair, fine, foxy, good-looking, graceful
+      , handsome, looker, lovely, neat, nice, picture, pleas
+      ant, pleasing, pulchritudinous, tasteful
+      Antonyms: disgusting, ugly
+
+      (adverb) considerable; somewhat
+      Synonyms: a little, ample, fairly, kind of, 
+      large, moderately, more or less, much, notable, pretty
+      much, quite, rather, reasonably, sizable, some, somet
+      hing, sort of, tolerably
+    </section>
+    <div>
+      <h2><a name="section6">(#section6) Section 6</a></h2>
+      <p>
+        Back to top: <a href="#top">Back to top of the page</a>
+      </p>
+    </div>
+  </body>
+</html>
